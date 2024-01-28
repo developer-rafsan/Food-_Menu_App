@@ -34,7 +34,7 @@ const filterFood = (filter_text) => {
     ) {
       const div_card = `
         <div class="card">
-          <img src=${card.image}>
+          <img src=${card.image} alt= "food image" >
           <div class="content">
             <h1>${card.name}</h1>
             <p>${card.text}</p>
